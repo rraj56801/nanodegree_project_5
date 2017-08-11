@@ -133,7 +133,7 @@ public class ReportCard {
             String subject = mSubjects.get(i);
             totalScores = totalScores + subject + ": " + score + "\n";
         }
-        totalScores = totalScores + "Final Score: " + mFinalScore;
+        totalScores = totalScores + "Final Score: " + getmFinalScore();
         return totalScores;
     }
 }
